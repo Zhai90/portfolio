@@ -8,10 +8,13 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+      fontFamily: {
+        monospace: ["'Red Hat Mono'", "'Courier New'", "serif"],
+        serif: ["'Georgia'", "serif"],
+        custom: ["'Oswald'", "sans-serif"],
+      },
+      colors: {
+        background: "#00091c",
       },
     },
   },
